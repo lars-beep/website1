@@ -1,44 +1,72 @@
 /* Basislayout */
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+
+.bg-image {
+  background-image: url("tennis 8.jpg");
+
+  height: 100%; 
+  width: 100%;
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 html, body {
     height: 100%;
     padding: 0;
-    background-color: #EEEEEE;  
-    
     color: #303030;
     font: Verdana, Arial, Sans-Serif;
+    
+    
 }
 
 
 main {
     margin: 0 auto;
-    width: 700px;
+    width: auto;
+    height: 900px;
     position: relative;
 }
 
 
 article {
     text-align: justify;
+    color: greenyellow;
+    margin: 20px;
+    
 }
 
 
 header {
     color: skyblue;
     text-align: center;
+    
 }
 
 
 footer {
     text-align: center;
     padding-bottom: 10px;
+    background-color:
 }
 
+head { align-content: center
+
+}
 
 /* specifieke stijlen */
 
 img.zweefLinks {
     float: left;
-    margin-right: 15px;
+    margin: 5px;
+    width: 150px;
+    height: 190px;
 }
 
 .smalltext {
@@ -60,7 +88,7 @@ nav ul {
     list-style-type: none;
     margin: auto;
     padding: 0;
-    background-color: #dddddd;
+    background-color: black;
     overflow: hidden;
 }
 
@@ -74,6 +102,7 @@ nav li a {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    
 }
 
 nav li a:hover {
@@ -81,9 +110,21 @@ nav li a:hover {
 }
 
 nav li a.active {
-    background-color: skyblue;
+    background-color: black;
 }
 
+article ol {
+
+    margin: 20px;
+}
+
+p {
+    width: 400px;
+}
+
+article {
+    margin-left: 20px;
+}
 
 
 
