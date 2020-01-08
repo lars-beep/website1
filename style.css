@@ -29,10 +29,9 @@ html, body {
 
 main {
     margin: 0 auto;
-    width: auto;
     height: 900px;
     position: relative;
-    width: 900px;
+    width: auto;
 }
 
 
@@ -41,7 +40,7 @@ article {
     color: greenyellow;
     margin: 20px;
     width: 900px;
-    
+    float:left;
 }
 
 
@@ -121,7 +120,7 @@ article ol {
 }
 
 p {
-    width: 600px;
+    width: 850px;
 }
 
 article {
