@@ -32,6 +32,7 @@ main {
     width: auto;
     height: 900px;
     position: relative;
+    width: 900px;
 }
 
 
@@ -39,12 +40,13 @@ article {
     text-align: justify;
     color: greenyellow;
     margin: 20px;
+    width: 900px;
     
 }
 
 
 header {
-    color: skyblue;
+    color: black;
     text-align: center;
     
 }
@@ -57,7 +59,7 @@ footer {
 }
 
 head { align-content: center
-
+    
 }
 
 /* specifieke stijlen */
@@ -111,20 +113,55 @@ nav li a:hover {
 
 nav li a.active {
     background-color: black;
+    height: 20px;
 }
 
 article ol {
-
     margin: 20px;
 }
 
 p {
-    width: 400px;
+    width: 600px;
 }
 
 article {
-    margin-left: 20px;
+    margin-left: 20px; 
+    height: 300px;
+    font-size: 20px;   
 }
 
+a.post-malone {
+    font-size: 50px;
+    text-decoration: none;
+    color: white;
 
+}
 
+a.post-malone:hover {
+    opacity: 0.6;
+}
+
+.background {
+  background-image: url("tennis 8.jpg");
+
+  height: 100%; 
+  width: 100%;
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#nice {
+  background-image: url("tennis 8.jpg");
+  height: 100%; 
+  width: 100%;
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+   }
+
+.gerard {
+    margin-top: 50px;
+}
